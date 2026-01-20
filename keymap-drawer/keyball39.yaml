@@ -45,7 +45,7 @@ layers:
   - '1'
   - '2'
   - '3'
-  - {t: '$$mdi:minus-circle-outline$$', type: none}
+  - .
   - {t: '$$mdi:minus-circle-outline$$', type: none}
   - HOME
   - $$mdi:arrow-up-bold$$
