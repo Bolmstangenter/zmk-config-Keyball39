@@ -11,16 +11,16 @@ layers:
   - I
   - O
   - P
-  - {t: A, h: '$$mdi:apple-keyboard-control$$'}
-  - {t: S, h: '$$mdi:apple-keyboard-option$$'}
-  - {t: D, h: '$$mdi:apple-keyboard-command$$'}
-  - F
+  - A
+  - {t: S, h: '$$mdi:apple-keyboard-control$$'}
+  - {t: D, h: '$$mdi:apple-keyboard-option$$'}
+  - {t: F, h: '$$mdi:apple-keyboard-command$$'}
   - G
   - H
-  - J
-  - {t: K, h: '$$mdi:apple-keyboard-command$$'}
-  - {t: L, h: '$$mdi:apple-keyboard-option$$'}
-  - {t: ;, h: '$$mdi:apple-keyboard-control$$', s: ':'}
+  - {t: J, h: '$$mdi:apple-keyboard-command$$'}
+  - {t: K, h: '$$mdi:apple-keyboard-option$$'}
+  - {t: L, h: '$$mdi:apple-keyboard-control$$'}
+  - {t: ;, s: ':'}
   - {t: Z, h: NUM}
   - X
   - C
@@ -32,8 +32,8 @@ layers:
   - {t: ., s: '>'}
   - {t: /, s: '?'}
   - $$mdi:keyboard-esc$$
-  - {t: '$$mdi:minus-circle-outline$$', type: none}
-  - {t: '$$mdi:minus-circle-outline$$', type: none}
+  - PgDn
+  - PgUp
   - '&mkp MB1'
   - $$mdi:keyboard-space$$
   - NUM
@@ -46,17 +46,17 @@ layers:
   - '2'
   - '3'
   - .
-  - {t: '$$mdi:minus-circle-outline$$', type: none}
-  - HOME
-  - $$mdi:arrow-up-bold$$
-  - END
   - $$mdi:backspace-reverse-outline$$
-  - $$mdi:arrow-left-bold$$
+  - {t: '$$mdi:minus-circle-outline$$', type: none}
+  - $$mdi:arrow-up-bold$$
+  - {t: '$$mdi:backspace$$', type: backspace}
+  - {t: '$$mdi:minus-circle-outline$$', type: none}
+  - {t: '$$mdi:minus-circle-outline$$', type: none}
   - '4'
   - {t: '5', s: '%'}
   - '6'
   - {t: '-', s: _}
-  - {t: '$$mdi:backspace$$', type: backspace}
+  - {t: '$$mdi:minus-circle-outline$$', type: none}
   - $$mdi:arrow-left-bold$$
   - $$mdi:arrow-down-bold$$
   - $$mdi:arrow-right-bold$$
@@ -283,5 +283,16 @@ layers:
 combos:
 - p: [16, 17]
   k: {t: '$$mdi:keyboard-return$$', type: enter}
+  l: [QWRT]
 - p: [7, 8]
   k: {t: 'Ctl+$$mdi:backspace$$', type: backspace}
+  l: [QWRT]
+- p: [1, 2]
+  k: HOME
+  l: [QWRT]
+- p: [2, 3]
+  k: END
+  l: [QWRT]
+- p: [25, 26]
+  k: '&cpp'
+  l: [QWRT]
