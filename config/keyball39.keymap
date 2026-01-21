@@ -50,11 +50,11 @@
     };
 
     macros {
-        Hiragana: Hiragana {
+        cpp: cpp {
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
-            bindings = <&kp LC(SPACE)>;
-            label = "HIRAGANA";
+            bindings = <&kp BACKSLASH &kp N &kp RIGHT &kp SEMICOLON>;
+            label = "CPP";
         };
     };
 
@@ -64,11 +64,31 @@
         enter {
             bindings = <&kp ENTER>;
             key-positions = <16 17>;
+            layers = <0>;
         };
 
         bkspc {
             bindings = <&kp LC(BACKSPACE)>;
             key-positions = <7 8>;
+            layers = <0>;
+        };
+
+        home {
+            bindings = <&kp HOME>;
+            key-positions = <1 2>;
+            layers = <0>;
+        };
+
+        edn {
+            bindings = <&kp END>;
+            key-positions = <2 3>;
+            layers = <0>;
+        };
+
+        cepepe {
+            bindings = <&cpp>;
+            key-positions = <25 26>;
+            layers = <0>;
         };
     };
 
@@ -78,20 +98,20 @@
         default_layer {
             label = "QWRT";
             bindings = <
-&kp Q        &kp W           &kp E           &kp R     &kp T                    &kp Y           &kp U  &kp I           &kp O           &kp P
-&mt LCTRL A  &mt LEFT_ALT S  &mt LEFT_GUI D  &kp F     &kp G                    &kp H           &kp J  &mt LEFT_GUI K  &mt LEFT_ALT L  &mt LCTRL SEMICOLON
-&lt 1 Z      &kp X           &kp C           &kp V     &kp B                    &kp N           &kp M  &kp COMMA       &kp DOT         &kp SLASH
-&kp ESCAPE   &none           &none           &mkp MB1  &kp SPACE  &mo 1  &mo 2  &kp LEFT_SHIFT                                         &none
+&kp Q       &kp W          &kp E           &kp R           &kp T                    &kp Y           &kp U           &kp I           &kp O        &kp P
+&kp A       &mt LCTRL S    &mt LEFT_ALT D  &mt LEFT_GUI F  &kp G                    &kp H           &mt LEFT_GUI J  &mt LEFT_ALT K  &mt LCTRL L  &kp SEMI
+&lt 1 Z     &kp X          &kp C           &kp V           &kp B                    &kp N           &kp M           &kp COMMA       &kp DOT      &kp SLASH
+&kp ESCAPE  &kp PAGE_DOWN  &kp PAGE_UP     &mkp MB1        &kp SPACE  &mo 1  &mo 2  &kp LEFT_SHIFT                                               &none
             >;
         };
 
         number_layer {
             label = "NUM";
             bindings = <
-&kp TAB   &kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3  &kp PERIOD                        &none          &kp HOME        &kp UP_ARROW      &kp END     &kp DELETE
-&kp LEFT  &kp NUMBER_4  &kp N5        &kp NUMBER_6  &kp MINUS                         &kp BACKSPACE  &kp LEFT        &kp DOWN          &kp RIGHT   &none
-&none     &kp N7        &kp N8        &kp N9        &kp N0                            &none          &kp C_PREVIOUS  &kp C_PLAY_PAUSE  &kp C_NEXT  &none
-&none     &none         &none         &kp LEFT_ALT  &kp LCTRL   &kp RIGHT_ALT  &none  &none                                                        &kp LG(LS(S))
+&kp TAB  &kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3  &kp PERIOD                        &kp DEL  &none           &kp UP_ARROW      &kp BACKSPACE  &none
+&none    &kp NUMBER_4  &kp N5        &kp NUMBER_6  &kp MINUS                         &none    &kp LEFT        &kp DOWN          &kp RIGHT      &none
+&none    &kp N7        &kp N8        &kp N9        &kp N0                            &none    &kp C_PREVIOUS  &kp C_PLAY_PAUSE  &kp C_NEXT     &none
+&none    &none         &none         &kp LEFT_ALT  &kp LCTRL   &kp RIGHT_ALT  &none  &none                                                     &kp LG(LS(S))
             >;
         };
 
