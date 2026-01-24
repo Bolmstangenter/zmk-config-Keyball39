@@ -232,9 +232,9 @@ layers:
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - $$mdi:keyboard-esc$$
-  - LGUI
+  - F1
+  - F2
   - $$mdi:apple-keyboard-option$$
-  - Z
   - $$mdi:keyboard-space$$
   - N
   - {t: QWRT, h: toggle}
