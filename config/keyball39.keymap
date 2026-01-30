@@ -105,7 +105,7 @@
             label = "QWRT";
             bindings = <
 &kp V       &kp L        &kp H           &kp G           &kp K                             &kp Q      &kp F           &kp O           &kp U          &kp J
-&kp S       &mt LCTRL R  &mt LEFT_ALT N  &mt LEFT_GUI T  &kp B                             &kp Y      &mt LEFT_GUI C  &mt LEFT_ALT A  &mt LCTRL E    &kp I
+&kp S       &mt LCTRL R  &mt LEFT_ALT N  &mt LEFT_GUI T  &kp B                             &kp Y      &mt LEFT_GUI C  &mt LEFT_ALT E  &mt LCTRL A    &kp I
 &lt 1 Z     &kp X        &kp M           &kp D           &kp P                             &kp SLASH  &kp W           &kp PERIOD      &kp SEMICOLON  &kp COMMA
 &kp ESCAPE  &none        &none           &kp TAB         &kp SPACE  &mo 2  &kp LEFT_SHIFT  &mo 1                                                     &kp F13
             >;
