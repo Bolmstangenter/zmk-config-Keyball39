@@ -18,8 +18,8 @@ layers:
   - B
   - Y
   - {t: C, h: '$$mdi:apple-keyboard-command$$'}
-  - {t: A, h: '$$mdi:apple-keyboard-option$$'}
-  - {t: E, h: '$$mdi:apple-keyboard-control$$'}
+  - {t: E, h: '$$mdi:apple-keyboard-option$$'}
+  - {t: A, h: '$$mdi:apple-keyboard-control$$'}
   - I
   - {t: Z, h: NUM}
   - X
