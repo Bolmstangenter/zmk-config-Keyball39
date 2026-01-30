@@ -1,39 +1,39 @@
 layout: {zmk_keyboard: keyball39}
 layers:
   QWRT:
-  - Q
-  - W
-  - E
-  - R
-  - T
-  - Y
-  - U
-  - I
-  - O
-  - P
-  - A
-  - {t: S, h: '$$mdi:apple-keyboard-control$$'}
-  - {t: D, h: '$$mdi:apple-keyboard-option$$'}
-  - {t: F, h: '$$mdi:apple-keyboard-command$$'}
-  - G
+  - V
+  - L
   - H
-  - {t: J, h: '$$mdi:apple-keyboard-command$$'}
-  - {t: K, h: '$$mdi:apple-keyboard-option$$'}
-  - {t: L, h: '$$mdi:apple-keyboard-control$$'}
-  - {t: ;, s: ':'}
+  - G
+  - K
+  - Q
+  - F
+  - O
+  - U
+  - J
+  - S
+  - {t: R, h: '$$mdi:apple-keyboard-control$$'}
+  - {t: N, h: '$$mdi:apple-keyboard-option$$'}
+  - {t: T, h: '$$mdi:apple-keyboard-command$$'}
+  - B
+  - Y
+  - {t: C, h: '$$mdi:apple-keyboard-command$$'}
+  - {t: A, h: '$$mdi:apple-keyboard-option$$'}
+  - {t: E, h: '$$mdi:apple-keyboard-control$$'}
+  - I
   - {t: Z, h: NUM}
   - X
-  - C
-  - V
-  - B
-  - N
   - M
-  - {t: ',', s: <}
-  - {t: ., s: '>'}
+  - D
+  - P
   - {t: /, s: '?'}
+  - W
+  - .
+  - {t: ;, s: ':'}
+  - {t: ',', s: <}
   - $$mdi:keyboard-esc$$
-  - PgDn
-  - PgUp
+  - {t: '$$mdi:minus-circle-outline$$', type: none}
+  - {t: '$$mdi:minus-circle-outline$$', type: none}
   - $$mdi:keyboard-tab$$
   - $$mdi:keyboard-space$$
   - SYM
