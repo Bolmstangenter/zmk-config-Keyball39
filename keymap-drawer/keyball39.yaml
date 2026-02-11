@@ -68,11 +68,11 @@ layers:
   - {t: '0', s: )}
   - {t: '$$mdi:minus-circle-outline$$', type: none}
   - $$mdi:skip-previous$$
-  - PLAY
+  - PLAY PAUSE
   - $$mdi:skip-next$$
   - {t: '$$mdi:minus-circle-outline$$', type: none}
   - $$mdi:skip-previous$$
-  - PLAY
+  - PLAY PAUSE
   - $$mdi:skip-next$$
   - {t: '$$mdi:minus-circle-outline$$', type: none}
   - {t: '$$mdi:minus-circle-outline$$', type: none}
