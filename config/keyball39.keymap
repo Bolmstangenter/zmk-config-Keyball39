@@ -97,10 +97,10 @@
         number_layer {
             label = "NUM";
             bindings = <
-&kp TAB     &kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3  &kp DOT                  &kp DELETE  &none       &kp UP_ARROW    &kp BACKSPACE  &kp NUMBER_0
-&none       &kp NUMBER_4  &kp N5        &kp NUMBER_6  &kp MINUS                &none       &kp LEFT    &kp DOWN_ARROW  &kp RIGHT      &none
-&none       &kp N7        &kp N8        &kp N9        &kp N0                   &none       &kp C_PREV  &kp C_PLAY      &kp C_NEXT     &none
-&kp C_PREV  &kp C_PLAY    &kp C_NEXT    &none         &none      &none  &none  &none                                                  &kp LG(RS(S))
+&kp TAB     &kp NUMBER_1      &kp NUMBER_2  &kp NUMBER_3  &kp DOT                  &kp DELETE  &none       &kp UP_ARROW      &kp BACKSPACE  &kp NUMBER_0
+&none       &kp NUMBER_4      &kp N5        &kp NUMBER_6  &kp MINUS                &none       &kp LEFT    &kp DOWN_ARROW    &kp RIGHT      &none
+&none       &kp N7            &kp N8        &kp N9        &kp N0                   &none       &kp C_PREV  &kp K_PLAY_PAUSE  &kp C_NEXT     &none
+&kp C_PREV  &kp K_PLAY_PAUSE  &kp C_NEXT    &none         &none      &none  &none  &none                                                    &kp LG(RS(S))
             >;
         };
 
@@ -137,10 +137,10 @@
         scroll_layer {
             label = "SCROLL";
             bindings = <
-&kp TAB    &kp N1  &kp N2  &kp N3    &kp N4                    &trans  &trans  &trans  &trans  &trans
-&kp LCTRL  &kp Q   &kp W   &kp E     &kp R                     &trans  &trans  &trans  &trans  &trans
-&kp LSHFT  &kp A   &kp S   &kp D     &kp F                     &trans  &trans  &trans  &trans  &trans
-&kp ESC    &kp B   &kp N   &kp LALT  &kp SPACE  &mo 6  &tog 0  &trans                          &trans
+&kp TAB    &kp N1  &kp N2  &kp N3    &kp N4                   &trans  &trans  &trans  &trans  &trans
+&kp LCTRL  &kp Q   &kp W   &kp E     &kp R                    &trans  &trans  &trans  &trans  &trans
+&kp LSHFT  &kp A   &kp S   &kp D     &kp F                    &trans  &trans  &trans  &trans  &trans
+&kp ESC    &kp B   &kp N   &kp LALT  &kp SPACE  &mo 6  &to 0  &trans                          &trans
             >;
         };
 
