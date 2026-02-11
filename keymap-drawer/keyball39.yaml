@@ -72,7 +72,7 @@ layers:
   - $$mdi:skip-next$$
   - {t: '$$mdi:minus-circle-outline$$', type: none}
   - $$mdi:skip-previous$$
-  - PLAY PAUSE
+  - $$mdi:play-pause$$
   - $$mdi:skip-next$$
   - {t: '$$mdi:minus-circle-outline$$', type: none}
   - {t: '$$mdi:minus-circle-outline$$', type: none}
